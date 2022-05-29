@@ -1,7 +1,7 @@
 {
   "name": "Tesla Game V1 Versiyon",
   "description": " @TeslaGameBot'un Eski Alt Versiyon Projesi GitHub'da Kullanıcılara Açık Sunuldu.",
-  "repository": "https://github.com/sirincay/TeslaGamev1",
+  "repository": "https://github.com/XTQ067/TeslaGamev1",
   "logo": "https://avatars.githubusercontent.com/u/88708263?s=96&v=4",
   "keywords": ["telegram", "bot"],
   "env": {
