@@ -75,7 +75,7 @@ const OyunYaratHusnuEhedov = chatId => {
 }
 
 const ozelMesaj = isGroup => Degisken(`
-    *Merhaba,Ben TeslaGameBot Tahmin Oyunu Zamanınızı eğlenceli hale getirimek için\nTelegram oyun botuyum🤖*
+    *Merhaba,Ben LuksGameBot Tahmin Oyunu Zamanınızı eğlenceli hale getirimek için\nTelegram oyun botuyum🤖*
     ${isGroup ? "" : "\n*Temel komutların listesi için /yardim*"}
 `)
 
@@ -427,8 +427,8 @@ bot.start(async (ctx) => {
     await ctx.replyWithMarkdown(ozelMesaj(ctx.update.message.chat.id < 0),{
         reply_markup:{
             inline_keyboard:[
-                [{text:'Botu Grupa Ekle ✅', url:`https://t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Resmi Kanalımız 📣', url:`t.me/teslagametr`},{text:'VİP Gruplar 💎', callback_data:'vip'}]
+                [{text:'Botu Grupa Ekle ✅', url:`https://t.me/LuksGameBot?startgroup=true`}],
+                [{text:'Resmi Kanalımız 📣', url:`t.me/LuksProject`},{text:'VİP Gruplar 💎', callback_data:'vip'}]
             ]
         }
     })
@@ -436,12 +436,12 @@ bot.start(async (ctx) => {
 
 bot.action('start', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`*Merhaba,Ben TeslaGameBot Tahmin Oyunu Zamanınızı eğlenceli hale getirimek için\nTelegram oyun botuyum🤖\n**Temel komutların listesi için /yardim*
+    ctx.replyWithMarkdown(`*Merhaba,Ben LuksGameBot Tahmin Oyunu Zamanınızı eğlenceli hale getirimek için\nTelegram oyun botuyum🤖\n**Temel komutların listesi için /yardim*
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'Botu Grupa Ekle ✅', url:`t.me/${process.env.BOT_ISMI}?startgroup=true`}],
-                [{text:'Resmi Kanalımız 📣', url:`t.me/teslagametr`},{text:'VİP Gruplar 💎', callback_data:'vip'}]
+                [{text:'Botu Grupa Ekle ✅', url:`t.me/LuksGameBot?startgroup=true`}],
+                [{text:'Resmi Kanalımız 📣', url:`t.me/LuksProject`},{text:'VİP Gruplar 💎', callback_data:'vip'}]
             ]
         }
     })
@@ -468,8 +468,8 @@ bot.action('AZ', ctx=>{
     ctx.replyWithMarkdown(`*🇦🇿 VİP Gruplar 🏆*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup ', url:'t.me/husnublog'}],
-                [{text:'2) Qrup ', url:'t.me/husnublog'}],
+                [{text:'1) Qrup ', url:'t.me/LuksGroup'}],
+                [{text:'2) Qrup ', url:'t.me/LuksBlog'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -484,8 +484,8 @@ bot.action('TR', ctx=>{
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Grub', url:'t.me/husnublog'}],
-                [{text:'2) Grub', url:'t.me/husnublog'}],
+                [{text:'1) Grub', url:'t.me/LuksGroup'}],
+                [{text:'2) Grub', url:'t.me/LuksBlog'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
