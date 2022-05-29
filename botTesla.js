@@ -465,11 +465,11 @@ bot.action('vip', ctx=>{
 // AZƏRBAYCAN GRUP DÜYMƏLƏRİ
 bot.action('AZ', ctx=>{
     ctx.deleteMessage()
-    ctx.replyWithMarkdown(`*🇦🇿 VİP Gruplar 🏆*`,{
+    ctx.replyWithMarkdown(`*🇦🇿 ᴠɪᴘ ɢʀᴜᴘʟᴀʀ 🏆*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup ', url:'t.me/LuksGroup'}],
-                [{text:'2) Qrup ', url:'t.me/LuksBlog'}],
+                [{text:'1) ǫʀᴜᴘ ', url:'t.me/LuksGroup'}],
+                [{text:'2) ᴋᴀɴᴀʟ ', url:'t.me/LuksBlog'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
@@ -480,12 +480,12 @@ bot.action('AZ', ctx=>{
 bot.action('TR', ctx=>{
     ctx.deleteMessage()
     ctx.replyWithMarkdown(`
-*🇹🇷 VİP Gruplar 🏆*
+*🇹🇷 ᴠɪᴘ ɢʀᴜᴘʟᴀʀ 🏆*
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Grub', url:'t.me/LuksGroup'}],
-                [{text:'2) Grub', url:'t.me/LuksBlog'}],
+                [{text:'1) ɢʀᴜᴘ', url:'t.me/LuksGroup'}],
+                [{text:'2) ᴋᴀɴᴀʟ', url:'t.me/LuksBlog'}],
                 [{text:'🔙 Geri', callback_data:'vip'}]
             ]
         }
