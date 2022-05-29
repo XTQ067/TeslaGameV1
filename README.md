@@ -9,22 +9,22 @@
     <img src="img/tesla.png" alt="Logo" width="500" height="320">
   </a>
 
-  <h2 align="center"><a href="https://t.me/husnuehedov">🔍 TeslaGame Proje Sahibi: Hüsnü Ehedov</a></h2>
+  <h2 align="center"><a href="https://t.me/ismayilzadevuqar">🔍 TeslaGame Proje Sahibi: İsmayılzadə Vuqar</a></h2>
 
   <p align="center">
     <b>Merhaba, TeslaGameV1 Projesi ile Karşınızdayız. Bot 1 Yıldan Fazladır Telegram da Aktif Olarak<br/>Kullanıcılara Oyun Konusun da kolaylık Sağlıyor
-Şuan Kullanılan <a href="https://t.me/TeslaGameBot" >@TeslaGameBot</a>'un <br/>
+Şuan Kullanılan <a href="https://t.me/LuksGameBot" >@LuksGameBot</a>'un <br/>
 Eski Alt Versiyon Projesi GitHub'da Kullanıcılara Açık Sunuldu.</b>
 <br/><br/>
 <strong><a href="https://telegra.ph/TeslaGame-Türkçe-Oyun-Rehberi-05-29">Dökümanı Okuyun</a></strong>
     ·
-    <strong><a href="https://t.me/husnuehedov">Hata Bildir</a></strong>
+    <strong><a href="https://t.me/NeonSUP">Hata Bildir</a></strong>
    </p>
 </div>
 
 ### 🔹 Kolay Heroku Kurulum
   
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sirincay/TeslaGameV1)  
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/XTQ067/TeslaGameV1)  
  <i>Deploy Sonrası Yapılması Gerekenler:</i><br/>
       <i>web npm start butonu kapatın</i><br/>
      <img src="img/heroku1.jpg" alt="heroku" width="200" height="150"><br/>
@@ -35,7 +35,7 @@ Eski Alt Versiyon Projesi GitHub'da Kullanıcılara Açık Sunuldu.</b>
 
 1. Reponu Klonlayın
    ```sh
-   git clone https://github.com/sirincay/TeslaGameV1
+   git clone https://github.com/XTQ067/TeslaGameV1
    cd TeslaGameV1
    ```
 2. Telegraf,Environment Paketleri İndirin
@@ -73,9 +73,9 @@ Tüm hakları saklıdır!
 
 ## İletişim
 
-Telegram- [@HusnuEhedov](https://t.me/husnuehedov)
+Telegram- [@ismayilzadevuqar](https://t.me/ismayilzadevuqar)
 
-Project Link: [https://github.com/sirincay/TeslaGameV1](https://github.com/sirincay/TeslaGameV1)
+Project Link: [https://github.com/XTQ067/TeslaGameV1](https://github.com/sirincay/TeslaGameV1)
 
 
 
